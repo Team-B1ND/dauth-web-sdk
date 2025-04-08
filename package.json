@@ -1,0 +1,22 @@
+{
+  "name": "dauth-web-sdk",
+  "version": "1.0.0",
+  "description": "dauth web sdk",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "npx tsc"
+  },
+  "author": "B1ND",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.8.2",
+    "axios-mock-adapter": "^2.1.0",
+    "typescript": "^5.8.2"
+  },
+  "types": "./index.d.ts",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0"
+  }
+}
